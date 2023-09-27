@@ -1,45 +1,40 @@
 baseurl:
-url: https://chauby.github.io
-title: Chaobin
+url: https://bubble-zgq.github.io
+title: bubble-zgq
 subtitle: "The sandglass remembers the time we mislay"
-description: "Chauby's personal page"
+description: "bubble-zgq's personal page"
 date_format: "ordinal"
 # timezone: Asia/Chengdu
 encoding: "utf-8"
 side_bar_repo_limit: 5
 
-author: Chauby
+author: bubble-zgq
 organization: UESTC
 organization_url: http://www.uestc.edu.cn
-github_username: Chauby
-location: Chengdu, China
-email: chaubyZou@163.com
+github_username: bubble-zgq
+location: HangZhou, China
+email: bubble-zgq@163.com
 
 # Navigation
 navs:
-  -
-    href: /
-    label: Homepage
+- href: /
+  label: Homepage
 
-  -
-    href: /cv/
-    label: CV
+- href: /cv/
+  label: CV
 
-  -
-    href: /publications/
-    label: Publications
+- href: /publications/
+  label: Publications
 
-  -
-    href: /categories/
-    label: Blogs
+- href: /categories/
+  label: Blogs
 
-  -
-    href: /wiki/
-    label: Wiki
+- href: /wiki/
+  label: Wiki
 
-  # -
-  #   href: /links/
-  #   label: Links
+# -
+#   href: /links/
+#   label: Links
 
 # RSS
 subscribe_rss: /feed.xml
@@ -47,7 +42,7 @@ subscribe_rss: /feed.xml
 # Jekyll
 markdown: kramdown
 kramdown:
-    input: GFM
+  input: GFM
 highlighter: rouge
 paginate: 8
 lsi: false
@@ -55,27 +50,27 @@ quiet: false
 excerpt_separator: "\n\n"
 permalink: /:year/:month/:day/:title/
 plugins:
-    - jekyll-github-metadata
-    - rouge
+- jekyll-github-metadata
+- rouge
+- jekyll-paginate
 #     - jekyll-html-pipeline
-    - jekyll-paginate
-    - jekyll-sitemap
-    - jekyll-feed
-    - jemoji
+- jekyll-sitemap
+- jekyll-feed
+- jemoji
 #     - jekyll-mentions
 collections:
-    wiki:
-        output: true
-        permalink: /wiki/:path/
+  wiki:
+    output: true
+    permalink: /wiki/:path/
 
 repository: chauby/chauby.github.io
 
 # Search
 simple_jekyll_search:
-    fulltext: false # full text search enable
-    limit: 10 # limitation of the search results to show
+  fulltext: false # full text search enable
+  limit: 10 # limitation of the search results to show
 
 # Analytics
 google:
-    analytics_id: UA-80669434-1
+  analytics_id: UA-80669434-1
 github: [metadata]
